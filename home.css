@@ -1,0 +1,165 @@
+
+
+*{
+	padding: 0;
+	margin: 0;
+
+}
+
+.top{
+	width: 100%;
+	height: 40px;
+	background: #ddd;
+}
+
+.top_box{
+	width: 1200px;
+	height: 40px;
+	margin: 0 auto;
+}
+
+.top_left{
+	font-size: 12px;
+	color: #333;
+	float: left;
+	line-height: 40px;
+}
+
+.top_right{
+	font-size: 12px;
+	float: right;
+	line-height: 40px;
+}
+
+.checked{
+	color: #e4020b;
+}
+
+.head{
+	width: 1200px;
+	height: 120px;
+	margin:  0 auto;
+	position: relative;
+}
+.head_left img{
+	width: 408px;
+	height: 82px;
+	float: left;
+	position: absolute;
+    top: 50%;
+    margin-top: -45px; 
+  
+}
+
+.head_right{
+	float: right;
+	width: 500px;
+	height: 120px;
+}
+
+.tel_title{
+	font-size: 20px;
+	line-height: 120px;
+	float: left;
+	margin-left: 80px;
+}
+.head_right_tel{
+	width: 300px;
+	height: 120px;
+	margin-left: 30px;
+	position: relative;
+}
+
+.head_right_tel img{
+	width: 40px;
+	height: 40px;
+	position: absolute;
+    top: 50%;
+    left: 80%;
+    margin-top: -18px;
+}
+
+.line{
+	border-left: 2px solid #e4020b;
+	width: 300px;
+	margin-left: 300px;
+	position: absolute;
+    top: 50%;
+    margin-top: -25px;
+}
+.line span{
+	display: block;
+	font-size: 20px;
+	font-weight: 700;
+	margin-left: 20px;
+	color: #e4020b;
+
+}
+
+.navigation_box{
+	width: 100%;
+	height: 40px;
+	background:#e4020b; 
+	margin:0 auto;
+}
+
+.navigation_box ul{
+	width: 1200px;
+	height: 40px;
+	margin:0 auto;
+}
+
+.navigation_box ul li{
+	width: 109px;
+	height: 40px;
+	/*border-right: 1px solid #fff;*/
+	float: left;
+	text-align: center;
+	line-height: 40px;
+}
+
+.navigation_box ul li a{
+	color: #fff;
+}
+
+.active{
+	background: #b8050c;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 600px;
+} 
+.swiper-container img {
+    width: 100%;
+    height: 600px;
+}
+.one{
+	width: 1200px;
+	height: 60px;
+	border-bottom: 1px solid #e4020b;
+	margin:0 auto;
+}
+
+.title1{
+	float: left;
+	margin-right: 10px;	
+	font-weight: 600;
+	color:#e4020b ;
+	line-height: 60px;
+}
+
+.title2{
+	float: left;
+	margin-right: 10px;
+	font-weight: 600;
+	color: #999;
+	line-height: 60px;	
+}
+.one a{
+	line-height: 60px;
+	float: right;
+}
+.one a:hover{
+	color: #e4020b;
+}
